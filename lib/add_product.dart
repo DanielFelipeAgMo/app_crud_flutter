@@ -1,4 +1,5 @@
 import 'package:app_crud_flutter/home_page.dart';
+import 'package:app_crud_flutter/text_box.dart';
 import 'package:flutter/material.dart';
 
 class AddProduct extends StatefulWidget {
@@ -7,9 +8,9 @@ class AddProduct extends StatefulWidget {
 }
 
 class _AddProduct extends State<AddProduct> {
-  TextEditingController controllerName;
-  TextEditingController controllerDescription;
-  TextEditingController controllerPrice;
+  late TextEditingController controllerName;
+  late TextEditingController controllerDescription;
+  late TextEditingController controllerPrice;
 
   @override
   void initState() {
