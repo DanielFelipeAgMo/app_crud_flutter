@@ -27,7 +27,7 @@ class _ModifyProduct extends State<ModifyProduct> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Modify Product"),
+        title: Text("Editar producto"),
       ),
       body: ListView(
         children: [
@@ -49,7 +49,7 @@ class _ModifyProduct extends State<ModifyProduct> {
                           name: name, description: description, price: price));
                 }
               },
-              child: Text("Save product")),
+              child: Text("Guardar cambios")),
         ],
       ),
     );

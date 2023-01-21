@@ -49,7 +49,7 @@ class _Home_Page extends State<Home_Page> {
                       products.insert(index, newProduct);
 
                       messageResponse(
-                          context, newProduct.name + " a sido modificado...!");
+                          context, newProduct.name + " ha sido modificado...!");
                     });
                   }
                 });
@@ -79,8 +79,8 @@ class _Home_Page extends State<Home_Page> {
               if (newProduct != null) {
                 setState(() {
                   products.add(newProduct);
-                  messageResponse(
-                      context, newProduct.name + "a sido creado con exito!...");
+                  messageResponse(context,
+                      newProduct.name + "ha sido creado con exito!...");
                 });
               }
             });

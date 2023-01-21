@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: Home_Page("Products Inventory"),
+      home: Home_Page("Inventario de Productos T de A"),
+      color: Colors.green,
     );
   }
 }

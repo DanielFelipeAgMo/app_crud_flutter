@@ -24,7 +24,7 @@ class _AddProduct extends State<AddProduct> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Create new product"),
+          title: Text("Crer nuevo producto"),
         ),
         body: ListView(
           children: [
@@ -48,7 +48,7 @@ class _AddProduct extends State<AddProduct> {
                             price: price));
                   }
                 },
-                child: Text("save product!"))
+                child: Text("Guardar producto"))
           ],
         ));
   }
